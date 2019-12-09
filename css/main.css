@@ -94,6 +94,10 @@ nav a.button-collapse i {
     font-size: 44px;
 }
 
+.motion-picture {
+    font-family: MotionPicture
+}
+
 .search-input .input-field label.active {
     -webkit-transform: translateY(0);
     transform: translateY(0);
