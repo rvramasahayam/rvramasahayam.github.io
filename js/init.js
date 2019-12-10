@@ -40,3 +40,13 @@ function makeTimer() {
     setInterval(function () {
         makeTimer();
     }, 1000);
+
+window.addeventasync = function(){
+    addeventatc.settings({
+        appleical  : {show:true, text:"Apple Calendar"},
+        google     : {show:true, text:"Google <em>(online)</em>"},
+        outlook    : {show:false, text:"Outlook"},
+        outlookcom : {show:false, text:"Outlook.com <em>(online)</em>"},
+        yahoo      : {show:false, text:"Yahoo <em>(online)</em>"}
+    });
+};
