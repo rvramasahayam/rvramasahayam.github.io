@@ -17,7 +17,22 @@
 }
 
 #time {
-    color: white;
+    display: block;
     font-size: 20px;
+    color: white;
+}
 
+.dav {
+    display: inline-block;
+    line-height: 1;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 601px) {
+    .dav {
+        display: inline-block;
+        line-height: 1;
+        padding: 10px;
+        font-size: 40px;
+    }
 }
