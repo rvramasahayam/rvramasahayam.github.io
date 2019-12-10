@@ -227,56 +227,7 @@
 
 <!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.js"></script>
+<script src="js/materialize.min.js"></script>
 <script src="js/init.js"></script>
-<script>
-  if ('serviceWorker' in navigator) {
-    console.log("Will the service worker register?");
-    navigator.serviceWorker.register('service-worker.js')
-      .then(function(reg){
-        console.log("Yes, it did.");
-      }).catch(function(err) {
-        console.log("No it didn't. This happened: ", err)
-      });
-  }
-</script>
-<script>
-    function makeTimer() {
-
-        //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");
-        var endTime = new Date("30 January 2020 11:11:00 GMT+05:30");
-        endTime = (Date.parse(endTime) / 1000);
-
-        var now = new Date();
-        now = (Date.parse(now) / 1000);
-
-        var timeLeft = endTime - now;
-
-        var days = Math.floor(timeLeft / 86400);
-        var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-        var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
-        var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-
-        if (hours < "10") {
-            hours = "0" + hours;
-        }
-        if (minutes < "10") {
-            minutes = "0" + minutes;
-        }
-        if (seconds < "10") {
-            seconds = "0" + seconds;
-        }
-
-        $("#days").html(days + "<span id='time'>Days</span>");
-        $("#hours").html(hours + "<span id='time'>Hours</span>");
-        $("#minutes").html(minutes + "<span id='time'>Minutes</span>");
-        $("#seconds").html(seconds + "<span id='time'>Seconds</span>");
-
-    }
-
-    setInterval(function () {
-        makeTimer();
-    }, 1000);
-</script>
 </body>
 </html>
