@@ -1,0 +1,15 @@
+{
+  "short_name": "reddy",
+  "name": "Varsha",
+  "icons": [
+    {
+      "src":"images/save_the_date.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#FFFFFF",
+  "Theme_color": "#E91E63",
+  "display": "standalone"
+}
