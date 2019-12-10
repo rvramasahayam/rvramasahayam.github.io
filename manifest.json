@@ -1,6 +1,6 @@
 {
-  "short_name": "reddy",
-  "name": "Varsha",
+  "short_name": "Varsha & Manikanth",
+  "name": "Varsha & Manikanth",
   "icons": [
     {
       "src":"images/save_the_date.jpg",
@@ -10,6 +10,6 @@
   ],
   "start_url": "/?utm_source=homescreen",
   "background_color": "#FFFFFF",
-  "Theme_color": "#E91E63",
+  "Theme_color": "#e91e63",
   "display": "standalone"
 }
