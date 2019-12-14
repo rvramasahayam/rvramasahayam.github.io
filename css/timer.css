@@ -16,7 +16,7 @@
     color: #abcd58;
 }
 
-#time {
+.time {
     display: block;
     font-size: 20px;
     color: white;
