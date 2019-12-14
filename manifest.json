@@ -3,9 +3,14 @@
   "name": "Varsha & Manikanth",
   "icons": [
     {
-      "src":"images/save_the_date.jpg",
+      "src":"images/cover_192.jpg",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/png"
+    },
+    {
+      "src": "/images/cover_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": "/?utm_source=homescreen",
