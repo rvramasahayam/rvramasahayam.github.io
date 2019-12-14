@@ -4,7 +4,11 @@ var urlsToCache = [
   '/css/main.css',
   '/css/materialize.min.css',
   '/css/style.css',
-  '/css/timer.css'
+  '/css/timer.css',
+  '/js/init.js',
+  '/js/materialize.min.js',
+  '/images/',
+  '/fonts/'
 ];
 
 self.addEventListener('install', function(event) {
