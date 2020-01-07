@@ -62,7 +62,7 @@ nav a.button-collapse i {
 }
 
 .save-date-card{
-    height: 500px;
+    min-height: 500px;
 }
 
 .grooms-name .bride {
