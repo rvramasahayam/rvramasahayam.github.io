@@ -57,6 +57,14 @@ nav a.button-collapse i {
     font-family: AutumnInNovember;
 }
 
+.save-date-font {
+    font-family: AutumnInNovember;
+}
+
+.save-date-card{
+    height: 500px;
+}
+
 .grooms-name .bride {
     width: calc(50% - 28px);
     float: left;
