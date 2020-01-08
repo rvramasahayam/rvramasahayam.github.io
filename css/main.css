@@ -13,6 +13,11 @@
     src: url('../fonts/motion_picture.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Angelface';
+    src: url('../fonts/Angelface.otf') format('opentype');
+}
+
 body {
     background-color: #fcfcfc;
 }
@@ -105,6 +110,10 @@ nav a.button-collapse i {
     font-family: MotionPicture
 }
 
+.angel-face-font-text {
+    font-family: Angelface;
+    font-size: 35px;
+}
 .search-input .input-field label.active {
     -webkit-transform: translateY(0);
     transform: translateY(0);
